@@ -1,7 +1,7 @@
 
 # Downtown
 
-A UI/UX Library made by Parsvel with user experience and design in mind. Downtown was made for Parsvel tools and application.
+A UI/UX Library made by Parsvel built on shadcn/ui. Made for Parsvel tools and application to conform to company design and theme.
 
 Downtown was based on Tailwind CSS and Radix UI. Made for React.
 
