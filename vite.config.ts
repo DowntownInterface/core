@@ -22,7 +22,7 @@ export default defineConfig({
     rollupOptions: {
       external: [...Object.keys(peerDependencies), ...Object.keys(dependencies)], output: { preserveModules: true, exports: 'named' }
     },
-
+    
     target: 'esnext',
     sourcemap: true
   }

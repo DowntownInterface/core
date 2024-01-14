@@ -1,11 +1,18 @@
 {
-  "name": "downtownui",
+  "name": "downtowncore",
   "version": "1.0.0",
   "description": "The UI Library made by Parsvel, made for Parsvel tools and applications.",
-  "main": "index.js",
+  "type": "module",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Parsvel/DowntownUI.git"
+    "url": "git+https://github.com/DowntownInterface/core.git"
   },
   "keywords": [
     "React",
@@ -17,9 +24,9 @@
   "author": "Parsvel",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Parsvel/DowntownUI/issues"
+    "url": "https://github.com/DowntownInterface/core/issues"
   },
-  "homepage": "https://github.com/Parsvel/DowntownUI#readme",
+  "homepage": "https://github.com/DowntownInterface/core#readme",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build && npm run build:styles",
