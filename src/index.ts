@@ -42,3 +42,5 @@ export * from './components/Use-Toast';
 export * from './components/Toggle';
 export * from './components/Tooltip';
 export * from './components/ThemeProvider';
+export * from './components/Breadcrumb';
+export * from './components/InputOtp';
